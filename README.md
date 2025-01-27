@@ -1,10 +1,10 @@
-RAG em PDFs com Deepseek-r1 e InMemoryVectorStore 📄🤖
-Descrição
+## RAG em PDFs com Deepseek-r1 e InMemoryVectorStore 📄🤖
+### Descrição
 
 Este projeto implementa um sistema de RAG (Retrieval-Augmented Generation) para consultas inteligentes em documentos PDF. Ele utiliza Deepseek-r1 tanto para a geração de embeddings quanto como modelo de linguagem (LLM), proporcionando uma solução unificada e eficiente para análise de documentos. O armazenamento de embeddings é feito usando InMemoryVectorStore para rápida recuperação de informações.
 
 O objetivo é oferecer uma ferramenta poderosa para buscar e processar informações em PDFs usando inteligência artificial.
-Arquitetura
+### Arquitetura
 
     Pré-processamento de PDFs:
         Os PDFs são extraídos e convertidos em texto.
